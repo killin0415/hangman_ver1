@@ -144,14 +144,14 @@ def play():#遊玩主程式
         print(display_hangmen(Try))        
         print("the hangmen is dead...I feel sorry about that,god bless you")
         print("the answer is " ,answer)
-        os.system("pause")
         depend=0
 score=0
 depend=1
 while True:
     Answer_list=["nothing"]
+    os.system("cls")
     print("please enter the level that you want to play.")
-    choice=int(input("(1):easy (2):normal (3):hard (4):text book (5):magazine (6):exit"))
+    choice=int(input("(1):easy (2):normal (3):hard (4):text book (5):magazine (6):exit :"))
     if choice==6:
         break
     answer_copy=answer_library(choice)
@@ -174,3 +174,4 @@ while True:
             print("Congradulation!you have solved all the questions in this level")
             break
     print("your score is {}".format(score))
+    os.system("pause")
