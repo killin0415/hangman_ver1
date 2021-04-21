@@ -151,7 +151,9 @@ depend=1
 while True:
     Answer_list=["nothing"]
     print("please enter the level that you want to play.")
-    choice=int(input("(1):easy (2):normal (3):hard (4):text book (5):magazine"))
+    choice=int(input("(1):easy (2):normal (3):hard (4):text book (5):magazine (6):exit"))
+    if choice==6:
+        break
     answer_copy=answer_library(choice)
     while True:
         os.system("cls")
