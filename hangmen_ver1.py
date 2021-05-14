@@ -8,7 +8,9 @@ def answer_library(key):#題庫
         1:[None],#簡單
         2:[None],#中等
         3:hard.split(","),#困難
-        4:['female','region','regional','forbid','continue','continous','education','educational','educate','principal','equal','equality','control','annoy','threaten','threat','surgery','recover','recovery','sign','persuade','persuasion','persuasive','adopt','policy','ensure','establish','establishment','recieve','honor','honorable','weapon'],#課內
+        4:['female','region','regional','forbid','continue','continous','education','educational','educate','principal','equal','equality','control','annoy','threaten','threat','surgery','recover','recovery','sign','persuade','persuasion','persuasive','adopt','policy','ensure','establish','establishment','recieve','honor','honorable','weapon',
+           'dare', 'entertain', 'entertainment', 'imaginative', 'imagine', 'imagination', 'imaginary', 'consistently', 'consistent', 'pursue', 'persuit', 'convey', 'parade', 'request', 'extreme', 'achieve', 'achievement', 'passion', 'passionate', 'failure', 'fail', 'hardship', 'poverty', 'faith', 'faithful', 'rescue', 'career', 'weave', 'disadvantage', 'overcome', 'attitude', 'obstacle', 'fulfill',
+           'awful', 'stare', 'whisper', 'rude', 'tease', 'purposely', 'purpose', 'scary', 'scare', 'overhear', 'insident', 'cruel', 'cruelty', 'pretend', 'genuinely', 'genuine', 'apologize', 'apology', 'gradually', 'gradual', 'approach', 'absolutely', 'absolute', 'defend', 'defense', 'bully', 'ceremony'],#課內
         5:[None]#雜誌
     }
     return answer_dict[key]
